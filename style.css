@@ -1,0 +1,29 @@
+.navigation{
+    position: fixed;
+    top: 0;
+    background-color: #333;
+    width: 100vw;
+    overflow: hidden;
+}
+.navigation a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.navigation a:hover{
+    cursor: pointer;
+    background-color: red;
+    transition: 200ms;
+}
+
+a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
