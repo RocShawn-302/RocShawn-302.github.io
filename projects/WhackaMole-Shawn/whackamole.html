@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack a mole</title>
+    <link rel="stylesheet" href="whackamole.css">
+</head>
+<body>
+    <header>
+        <h2 class="score">Score: 0</h2>
+        <img class="hammer" src="imgs/weapons/hammer.png" alt="hammer">
+
+        <button class="startButton">Start The HUNT.</button>
+        <div class="grid">
+            <div class="hole1 hole"><img class="mole" src="imgs/nothing.png" alt="mole"></div>
+            <div class="hole2 hole"><img class="mole" src="imgs/nothing.png" alt="mole"></div>
+            <div class="hole3 hole"><img  class="mole" src="imgs/nothing.png" alt="mole"></div>
+            <div class="hole4 hole"><img class="mole" src="imgs/nothing.png" alt="mole"></div>
+            <div class="hole5 hole"><img class="mole" src="imgs/nothing.png" alt="mole"></div>
+            <div class="hole6 hole"><img class="mole" src="imgs/nothing.png" alt="mole"></div>
+            <div class="hole7 hole"><img class="mole" src="imgs/nothing.png" alt="mole"></div>
+            <div class="hole8 hole"><img class="mole" src="imgs/nothing.png" alt="mole"></div>
+            <div class="hole9 hole"><img class="mole" src="imgs/nothing.png" alt="mole"></div>
+            <div class="hole10 hole"><img class="mole" src="imgs/nothing.png" alt="mole"></div>
+            <div class="hole11 hole"><img class="mole" src="imgs/nothing.png" alt="mole"></div>
+            <div class="hole12 hole"><img class="mole" src="imgs/nothing.png" alt="mole"></div>
+        </div>
+        
+    </header>
+    <main>
+        <div class="weaponSettings">
+            <div>Current Weapon: </div>
+            <div class="currentWeapon">Hammer</div>
+            <button class="changeWeapon">Change Weapon</button>
+        </div>
+        <div class="difficulties">
+            <div class="difficulty">Current difficulty: </div>
+            <div class='currentdifficulty normalcolor'>Normal</div>
+            <button class="easy">Easy</button>
+            <button class="normal">Normal</button>
+            <button class="hard">Hard</button>
+        </div>
+        <img class="icon" src="imgs/icons/normal.png" alt="icon">
+    </main>
+    <footer>
+        <audio src="audio/Bonk.mp3" class="whack"></audio>
+    </footer>
+    <script src="whackamole.js"></script>
+</body>
+</html>

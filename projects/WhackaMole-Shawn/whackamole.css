@@ -1,0 +1,126 @@
+* {
+    background-color: rgb(110, 139, 110);
+}
+
+a {
+    float: left;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    margin: 20px;
+    display: block;
+    text-align: center;
+    background-color: rgb(255, 31, 1);
+    font-size: 25px;
+    border: solid rgb(255, 0, 0) 2px;
+    position: static;
+}
+
+button {
+    cursor: pointer;
+}
+
+.startButton{
+    position: relative;
+    left: 850px;
+    bottom: 50px;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: rgb(255, 31, 1);
+}
+
+img {
+    background-color: rgba(255,255,255,0);
+}
+
+.difficulties{
+    position: relative;
+    bottom: 400px;
+    width: 200px;
+    text-align: center;
+    border: solid rgb(0, 0, 0) 2px;
+}
+
+.easy {
+    background-color: greenyellow;
+}
+
+.easycolor {
+    color: greenyellow;
+}
+
+.normal{
+    background-color: yellow;
+}
+
+.normalcolor{
+    color: yellow;
+}
+
+.hard{
+    background-color: red;
+}
+
+.hardcolor{
+    color: red;
+}
+
+.icon{
+    position: relative;
+    bottom: 400px;
+}
+
+h2 {
+    height: 100px;
+    width: 100px;
+}
+
+.weaponSettings {
+    border: solid black 1px;
+    position: relative;
+    text-align: center;
+    bottom: 600px;
+    width: 150px;
+}
+
+.grid {
+    display: grid;
+    padding: 5px;    
+    grid-template-columns: repeat(4, 250px);
+    color: aliceblue;
+    align-content: center;
+    justify-content: center;
+}
+
+.hole {
+    display: flex;
+    height: 250px;
+    width:  250px;
+    border: solid black 1px;
+    
+}
+
+.hole:hover {
+    background-color: rgb(12, 129, 12);
+}
+
+.hammer{
+    height: 150px;
+    position: absolute;
+    border: 0.5px solid var(--accent);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999999;
+    pointer-events: none;
+}
+
+.snap {
+    transform: translate(-50%, -50%) rotate(-45deg) !important;
+  }
+
+@media (max-width: 500px) {
+    .hammer {
+      display: none;
+    }
+  }
