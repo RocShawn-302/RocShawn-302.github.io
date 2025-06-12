@@ -1,0 +1,81 @@
+* {
+    text-align: center; /*aligns everything*/
+    color: rgb(182, 175, 76);
+    background-color: rgb(56, 56, 56);
+    margin: 5px;
+    padding: 5px; /*Gamesizes*/
+}
+button{
+    width: 50%; /*how fat you want the buttons to be*/
+}
+
+.CharacterList {
+    position: fixed;
+    top: 100px;
+}
+
+.EGOList {
+    position: fixed;
+    top: 100px;
+    right: 30px;
+}
+
+.creditsSpeler {
+    position: fixed;
+    left: 600px;
+}
+
+.creditsComputer {
+    position: fixed;
+    right: 600px;
+}
+
+.Player {
+    position: fixed;
+    left: 430px;
+    bottom: 50px;
+}
+
+.Computer {
+    position: fixed;
+    right: 420px;
+    bottom: 50px;
+}
+
+.DicePlayer {
+    position: fixed;
+    right: -200px;
+    top: 500px;
+}
+
+.DicePlayerValue {
+    position: fixed;
+    right: 1700px;
+    top: 600px;
+}
+
+.DiceComputer {
+    position: fixed;
+    left: -200px;
+    top: 500px;
+}
+
+.DiceComputerValue {
+    position: fixed;
+    left: 1700px;   
+    top: 600px;
+}
+
+.EGOPLAYER {
+    width: 20%;
+    position: fixed;
+    top: 600px;
+    right: 1200px;
+}
+
+.EGOCOM {
+    width: 20%;
+    position: fixed;
+    top: 600px;
+    left: 1200px;
+}
