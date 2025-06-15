@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(34, 34, 34);
     color: white;
 }
 
@@ -37,7 +37,7 @@ nav a:hover{
 
 .bts {
     width: 200px;
-    margin: -75px 1100px;
+    margin: -75px 1700px;
 }
 
 a {
@@ -51,7 +51,7 @@ a {
 
 .container {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
 }
 
 .block {
@@ -61,8 +61,22 @@ a {
     border-radius: 10px;
 }
 
+.title {
+    color: lightgreen;
+    background-color: #333;
+    border: solid gray 1px;
+    height: 80px;
+    width: 319px;
+}
+
 img {
     height: 100%;
     width: 100%;
     border-radius: 10px;
+}
+
+.imgblock {
+    height: 70%;
+    width: 100%;
+    background-color: white;
 }
