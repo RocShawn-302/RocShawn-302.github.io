@@ -37,27 +37,96 @@ nav a:hover{
 
 .bts {
     width: 200px;
-    margin: -75px 1700px;
+    margin: -75px 1680px;
 }
 
-a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-}
 
 .container {
     display: flex;
     flex-direction: row;
 }
 
+.container1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    border: solid #017c07 1px;
+    height: 150px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: #333;
+}
+
 .block {
     height: 500px;
     width: 500px;
     border: solid gray 2px;
+    border-radius: 10px;
+}
+
+
+.block1 {
+    height: 60px;
+    width: 500px;
+    border: solid rgb(6, 77, 15) 2px;
+    background-color: rgb(6, 77, 15);
+    border-radius: 10px;
+}
+
+.block2, .block3 {
+    height: 60px;
+    width: 400px;
+    background-color: #333;
+    border: solid rgb(6, 77, 15) 1px;
+    border-radius: 10px;
+}
+
+.block4 {
+    height: 50px;
+    width: 450px;
+    border: solid rgb(6, 77, 15) 2px;
+    background-color: rgb(6, 77, 15);
+    border-radius: 10px;
+}
+
+.block5 {
+    height: 90px;
+    width: 450px;
+    border: solid rgb(6, 77, 15) 2px;
+    background-color: rgb(6, 77, 15);
+    border-radius: 10px;
+}
+
+
+.blockimg {
+    height: 500px;
+    width: 500px;
+    border: solid rgb(6, 77, 15) 2px;
+    border-radius: 10px;
+}
+
+.blockImgConcept {
+    height: 300px;
+    width: 600px;
+    border: solid rgb(6, 77, 15) 2px;
+    border-radius: 10px;
+}
+
+.blockimgContact {
+    height: 100px;
+    width: 100px;
+    border: solid rgb(6, 77, 15) 2px;
+    border-radius: 10px;
+}
+
+.info {
+    height: 500px;
+    width: 500px;
+    margin: -670px 1200px;
+    border: solid rgb(6, 77, 15) 2px;
+    background-color: #333;
     border-radius: 10px;
 }
 
@@ -79,4 +148,16 @@ img {
     height: 70%;
     width: 100%;
     background-color: white;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
